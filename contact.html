@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEEPSLEEP/contact.com</title>
+    <link rel="icon" href="tr.png">
+    <link rel="stylesheet" href="contactstyle.css">
+    
+</head>
+
+<body class="main_bg">
+    <blockquote style="box-shadow: 1px 1px 10px white; padding: 0 15px; border-radius: 10px;">
+    <div class="form">
+        <div class="form-text">
+            <h1 class="head">RESERVATION </h1>
+            <p>Reserver pour une meilleure qualité de service</p>
+        </div>
+        <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span>Ecrivez votre nom complet</span>
+                    <input type="text" name="name" id="name" placeholder="Ecrivez ici..." required>
+                </div>
+                <div>
+                    <span>Ecrivez votre email</span>
+                    <input type="email" name="name" id="name" placeholder="Ecrivez ici..." required> 
+                </div>
+                <div>
+                    
+                    <span>reservation pour combien ?</span>
+                    <select name="people" id="people" required>
+                        <option value="">Nombre de personne </option>
+                        <option value="1">1 personne</option>
+                        <option value="2">2 personnes</option>
+                        <option value="3">3 personnes</option>
+                        <option value="4">4 personnes</option>
+                    </select>
+                    
+                </div>
+                <div>
+                    <span>Durée de reservation</span>
+                    <input type="text" name="time" id="time" placeholder="Entrez la durée souhaité" required>
+                </div>
+                <div>
+                    <span>Date d'arrivée</span>
+                    <input type="date" name="date" id="date" placeholder="Entrez la date d'arrivée" required>
+                </div>
+                <div>
+                    <span>Votre numéro de téléphone</span>
+                    <input type="number" name="number" id="number" placeholder="Entrez votre numéro..." required>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+
+
+                <div class="form-text">
+                    <h1>CONTACTEZ-NOUS</h1>
+                    <p>Si vous avez des question, et des problèmes lors de la reservation, <br>
+                        n'hésitez pas à nous contacter aux informations suivantes </p>
+                </div>
+                <div class="main-form">
+                    <form action="index.php" method="get">
+                        <div>
+                            <span>NOTRE EMAIL</span>
+                            <input type="email" name="email" id="email" placeholder="eeli9651@gmail.com" disabled>
+                        </div>
+                        <div>
+                            <span>NOS NUMEROS DISPONIBLE</span>
+                            <input type="email" name="name" id="name" placeholder="0703823886 / 0103943876" disabled> 
+                        </div>
+                        <div>
+                            <span>OUVERTURE/FERMETURE</span>
+                            <input type="email" name="name" id="name" placeholder="OUVERT 7jours/7 ET 24heures/24" disabled> 
+                        </div>
+
+            </form>
+        </div>
+    </div> <br>
+    
+ <footer id="foot">
+    Merci d'être passer, retour à l' <a href="index.html">accueil</a>
+ </footer>
+</blockquote>
+</body>
+
+</html>
